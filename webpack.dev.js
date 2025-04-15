@@ -5,7 +5,7 @@ const common = require('./webpack.common.js');
 // const ErrorOverlayPlugin = require('error-overlay-webpack-plugin');
 
 const port = 3000;
-let publicUrl = `ws://localhost:${port}/ws`;
+let publicUrl = `ws://0.0.0.0:${port}/ws`;
 
 //only for github
 if(process.env.GITPOD_WORKSPACE_URL){
